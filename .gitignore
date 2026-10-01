@@ -1,0 +1,37 @@
+# Dependencies and package-manager caches
+node_modules/
+.npm/
+.npm-cache/
+
+# Local environment settings and secrets; keep safe templates
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Generated builds and test coverage
+dist/
+build/
+coverage/
+.nyc_output/
+*.tsbuildinfo
+
+# Runtime logs, process files and local working data
+logs/
+*.log
+*.pid
+*.pid.lock
+work/
+tmp/
+temp/
+.cache/
+
+# Local editor and operating-system files
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Keep source, tests, package.json and lockfiles tracked
