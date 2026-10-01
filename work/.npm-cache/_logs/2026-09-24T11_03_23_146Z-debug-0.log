@@ -1,0 +1,14 @@
+0 verbose cli C:\nvm4w\nodejs\node.exe C:\nvm4w\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.13.0
+2 info using node@v24.17.0
+3 silly config load:file:C:\Users\srina\AppData\Local\nvm\v24.17.0\node_modules\npm\npmrc
+4 info config found workspace root at D:\MERN\multi-vendor-marketplace
+5 silly config load:file:D:\MERN\multi-vendor-marketplace\.npmrc
+6 silly config load:file:C:\Users\srina\.npmrc
+7 silly config load:file:C:\nvm4w\nodejs\etc\npmrc
+8 verbose title npm run dev
+9 verbose argv "run" "dev"
+10 verbose logfile logs-max:10 dir:D:\MERN\multi-vendor-marketplace\backend\work\.npm-cache\_logs\2026-09-24T11_03_23_146Z-
+11 verbose logfile D:\MERN\multi-vendor-marketplace\backend\work\.npm-cache\_logs\2026-09-24T11_03_23_146Z-debug-0.log
+12 silly logfile done cleaning log files
+13 http fetch GET 200 https://registry.npmjs.org/npm 556ms

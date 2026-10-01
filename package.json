@@ -1,0 +1,26 @@
+{
+  "name": "@marketplace/backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --env-file=.env --watch src/server.js",
+    "start": "node --env-file=.env src/server.js",
+    "test": "node --test --test-concurrency=1 test/*.test.js"
+  },
+  "dependencies": {
+    "cookie-parser": "1.4.7",
+    "express": "5.2.1",
+    "express-rate-limit": "8.7.0",
+    "helmet": "8.3.0",
+    "jsonwebtoken": "9.0.3",
+    "mongoose": "9.10.2",
+    "nodemailer": "10.0.10",
+    "socket.io": "4.8.4",
+    "stripe": "23.0.0",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "supertest": "7.3.0"
+  }
+}
